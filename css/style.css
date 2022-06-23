@@ -111,3 +111,90 @@ ul{
     background: #0BB1F9;
 }
 
+.btn-dark{
+    background: #539fc0;
+    color: black;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.py-1{
+    padding: 1.5rem; 
+    text-align: center;
+}
+
+.py-2{
+    padding: 2rem 0;
+
+}
+
+.py-3{
+    padding: 3rem 0;
+}
+
+/* what we do */
+.items{
+    display: flex;
+    padding: 1rem 0;
+}
+
+#what .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item .i{
+    background:#0BB1F9;
+    color: #F9530B;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/* who we are */
+#who{
+    display: flex;
+}
+
+#who div{
+    flex: 1;
+
+}
+
+#who .who-img{
+    background: url(../images/agents.jpg) no-repeat center center/cover;
+}
+
+.bg-light{
+    background: white;
+    color: #000000;
+}
+
+.p-1{
+    padding: 1.5rem;
+}
+
+.p-2{
+    padding: 3rem;
+}
+
+.list{
+    display: block;
+    margin: 0.5rem;
+    list-style: none;
+}
+
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #F9530B dotted 1px;
+}
