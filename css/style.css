@@ -8,7 +8,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: #0BB1F9;
+    background:white;
     color:black;
 }
 
@@ -30,6 +30,7 @@ p{
 #navbar{
     background: white;
     color:#0BB1F9;
+    top: 0;
     position: sticky;
     display: flex;
     justify-content: space-between;
@@ -112,8 +113,15 @@ ul{
 }
 
 .btn-dark{
-    background: #539fc0;
-    color: black;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    color: white;
+    background: blue;
+    padding: 1rem 2rem;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
 }
 
 .container{
@@ -197,4 +205,76 @@ ul{
 .list li{
     padding: 0.5rem 0;
     border-bottom: #F9530B dotted 1px;
+}
+
+
+/* contact section */
+
+
+/* client */
+#clients{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients .items img{
+    display: block;
+    margin: auto 15px;
+    width: 90px;
+    height: 90px;
+}
+
+
+/* contact */
+.bg-primary{
+background: #F9530B;
+color: white;
+}
+
+#contact{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#contact .contact-form .form-group{
+margin: 0.75rem;
+}
+
+#contact .contact-form label{
+    display:block;
+}
+
+#contact .contact-form input, #contact .contact-form textarea{
+width: 100%;
+padding: 0.5rem;
+border-radius: 5px;
+border: none;
+}
+
+.p-center{
+    text-align: center;
+    
+}
+
+#contact .contact-form input:focus, #contact .contact-form textarea:focus{
+    outline: none;
+    border: none;
+}
+
+/* footer */
+footer{
+   color: black;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer:hover{
+    background: #0BB1F9;
 }
